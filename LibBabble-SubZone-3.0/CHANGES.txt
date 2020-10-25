@@ -1,0 +1,36 @@
+------------------------------------------------------------------------
+r212 | arith | 2017-08-29 13:11:44 -0500 (Tue, 29 Aug 2017) | 1 line
+Changed paths:
+   M /trunk/LibBabble-SubZone-3.0.lua
+   M /trunk/LibBabble-SubZone-3.0.toc
+   M /trunk/LibBabble-SubZone-3.0_deDE.lua
+   M /trunk/LibBabble-SubZone-3.0_esES.lua
+   M /trunk/LibBabble-SubZone-3.0_esMX.lua
+   M /trunk/LibBabble-SubZone-3.0_frFR.lua
+   M /trunk/LibBabble-SubZone-3.0_itIT.lua
+   M /trunk/LibBabble-SubZone-3.0_koKR.lua
+   M /trunk/LibBabble-SubZone-3.0_ptBR.lua
+   M /trunk/LibBabble-SubZone-3.0_ruRU.lua
+   M /trunk/LibBabble-SubZone-3.0_zhCN.lua
+   M /trunk/LibBabble-SubZone-3.0_zhTW.lua
+
+prepare for 7.3-release1; translation updated to 7.3.0.24896
+------------------------------------------------------------------------
+r211 | arith | 2017-08-29 12:43:48 -0500 (Tue, 29 Aug 2017) | 1 line
+Changed paths:
+   M /trunk/LibBabble-SubZone-3.0.lua
+   M /trunk/LibBabble-SubZone-3.0.toc
+   M /trunk/LibBabble-SubZone-3.0_deDE.lua
+   M /trunk/LibBabble-SubZone-3.0_esES.lua
+   M /trunk/LibBabble-SubZone-3.0_esMX.lua
+   M /trunk/LibBabble-SubZone-3.0_frFR.lua
+   M /trunk/LibBabble-SubZone-3.0_itIT.lua
+   M /trunk/LibBabble-SubZone-3.0_koKR.lua
+   M /trunk/LibBabble-SubZone-3.0_ptBR.lua
+   M /trunk/LibBabble-SubZone-3.0_ruRU.lua
+   M /trunk/LibBabble-SubZone-3.0_zhCN.lua
+   M /trunk/LibBabble-SubZone-3.0_zhTW.lua
+
+to trigger database export, DO NOT USE this revision
+------------------------------------------------------------------------
+
