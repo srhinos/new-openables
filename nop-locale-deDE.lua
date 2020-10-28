@@ -65,17 +65,17 @@ L["Auto accept or hand out quests from AutoQuestPopupTracker!"] = "Automatische 
 L["Strata"] = "Schichten"
 L["Set strata for items button to HIGH, place it over normal windows."] = "Setze die Schichten für die Items auf HIGH, lege sie über normale Fenster."
 L["Herald"] = "Herold"
-L["Announce completed work orders, artifact points etc.."] = "Melden Sie abgeschlossene Arbeitsaufträge, Artefaktpunkte usw. an."
+L["Announce completed work orders, artifact points etc.."] = "Melde abgeschlossene Arbeitsaufträge, Artefaktpunkte usw."
 L["Skip on Error"] = "Überspringen bei Fehler"
 L["Temporary blacklist item when click produce error message"] = "Temporärer Blacklist-Eintrag, wenn Sie auf eine Fehlermeldung klicken"
-L["HIDE_IN_COMBAT"] = "Hide in combat"
-L["HIDE_IN_COMBAT_HELP"] = "Hide items button when in combat"
-L["SHOW_REPUTATION"] = "Show reputation"
-L["SHOW_REPUTATION_HELP"] = "Show Legion reputation standing in tooltip for reputation token items. Activate/Deactivate need game client reload."
-L["SKIP_EXALTED"] = "Skip exalted"
-L["SKIP_EXALTED_HELP"] = "Don't use Legion reputation tokens when already exalted."
-L["SKIP_MAXPOWER"] = "Skip artifact"
-L["SKIP_MAXPOWER_HELP"] = "Skip artifact power tokens when artifact have maximum traits."
+L["HIDE_IN_COMBAT"] = "Im Kampf verstecken"
+L["HIDE_IN_COMBAT_HELP"] = "Verstecke Schaltfläche im Kampf"
+L["SHOW_REPUTATION"] = "Zeige Ruf"
+L["SHOW_REPUTATION_HELP"] = "Zeige den aktuellen Ruf im Tooltip von Legion Ruf-Gegenständen; benötigt /reload."
+L["SKIP_EXALTED"] = "Verstecke Ehrfürchtig"
+L["SKIP_EXALTED_HELP"] = "Ignoriere Legion Ruf-Gegenstände wenn bereits ehrfürchtig."
+L["SKIP_MAXPOWER"] = "Verstecke Artefakt"
+L["SKIP_MAXPOWER_HELP"] = "Ignoriere Artefaktpunkt-Gegenstände wenn dein Artefakt das Maximum erreicht hat."
 L["Buttons per row"] = "Schaltflächen pro Reihe"
 L["Number of buttons placed in one row"] = "Wie viele Schaltflächen auf einer Reihe angezeigt werden sollen"
 L["Spacing"] = "Abstand"
@@ -109,7 +109,7 @@ skin   - versieht die Schaltfläche mit einem Skin
 lock   - sperrt/entsperrt die Position der Schaltfläche
 clear  - leert die Liste von dauerhaft ignorierten Gegenständen
 list   - listet dauerhaft ignorierte Gegenstände auf
-unlist - remove single item from blacklist based on itemID
+unlist - entferne einzelnen Gegenständ von der Blacklist via item ID
 skip   - schaltet das Rechtsklick-Überspringen zwischen temporär oder bis zum Neu-Einloggen um
 glow   - aktiviert/deaktiviert Aufleuchten der Schaltfläche bei Zonenwechsel
 zone   - aktiviert/deaktiviert Zonenabhängigkeit bei Gegenständen
