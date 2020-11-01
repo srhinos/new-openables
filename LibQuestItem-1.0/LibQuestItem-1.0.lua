@@ -193,7 +193,7 @@ local function ScanQuestLog()
 					local itemLink = select(2, GetItemInfo(itemName))
 					if itemLink then
 						local itemId = getbaseid(itemLink)
-						local questName = GetQuestLogTitle(questIndex)
+						local questName = C_QuestLog.GetInfo(questIndex).title
 						questItemText[itemId] = questName .. " - " .. objectiveText
 					end
 				end
