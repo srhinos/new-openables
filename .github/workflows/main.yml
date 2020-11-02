@@ -37,6 +37,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
-          asset_path: ./my-artifact.zip
-          asset_name: my-artifact.zip
+          asset_path: ./NOP.${{ steps.current-time.outputs.formattedTime }}.zip
+          asset_name: NOP.${{ steps.current-time.outputs.formattedTime }}.zip
           asset_content_type: application/zip
