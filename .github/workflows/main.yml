@@ -12,14 +12,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Zip project
-        run: |
-          zip --junk-paths my-artifact README.md
       - name: Get current time
         uses: srfrnk/current-time@master
         id: current-time
         with:
           format: YYYY.MM.DD.HH.mm
+      - name: Zip project
+        run: |
+          zip -r NOP.${{ steps.current-time.outputs.formattedTime }}.zip .
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
