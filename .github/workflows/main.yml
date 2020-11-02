@@ -19,7 +19,8 @@ jobs:
           format: YYYY.MM.DD.HH.mm
       - name: Zip project
         run: |
-          zip -r NOP.${{ steps.current-time.outputs.formattedTime }}.zip .
+          rsync -a "$PWD" .
+          zip -r NOP.${{ steps.current-time.outputs.formattedTime }}.zip `basename "$PWD"`
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
