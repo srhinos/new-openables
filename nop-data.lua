@@ -76,7 +76,7 @@ NOP.T_RECIPES = { -- [ItemId] = {{count_to_use,priority}, "gsub regex" | tooltip
   [153143] = {{1,PRI_TOKEN},4,nil,nil}, -- Unsullied Plate Breastplate, why Blizzard did put in type of armor?
   [152741] = {{1,PRI_TOKEN},4,nil,nil}, -- Unsullied Mail Chestguard, why Blizzard did put in type of armor?
   [153151] = {{1,PRI_TOKEN},4,nil,nil}, -- Unsullied Leather Tunic, why Blizzard did put in type of armor?
-  [127799] = {{1,PRI_TOKEN},4,nil,nil}, -- Baleful Pendant, for another slots than armor.
+  [127799] = {{1,PRI_TOKEN},3,nil,nil}, -- Baleful Pendant, for another slots than armor.
   [139879] = {{1,PRI_OPEN},3,nil,nil}, -- Crate of Champion Equipment
   [ 82800] = {{1,PRI_OPEN},1,nil,nil}, -- Pet Cage
   [162536] = {{1,PRI_OPEN},"(.+:).*",nil,nil}, -- Scouting Report: Swiftwind Post
