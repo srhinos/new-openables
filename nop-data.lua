@@ -623,6 +623,9 @@ NOP.T_ITEMS = { -- [itemID] = {{count_to_use,priority},{"sub-Zone",...},{[mapID]
   [187511] = {{1,PRI_REP},nil,{[1912] = true,}},
 -- The Maw & Torghast
   [178040] = {{1,PRI_OPEN},nil,nil}, -- Condensed Stygia
+  [168207] = {{1,PRI_REST},nil,nil}, -- Plundered Anima Cell
+  [170540] = {{1,PRI_REST},nil,nil}, -- Ravenous Anima Cell
+  [184662] = {{1,PRI_REST},nil,nil}, -- Requisitioned Anima Cell
 ----M&T upgrades
   [180949] = {{1,PRI_OPEN},nil,nil}, -- Animaflow Stabilizer
   [184588] = {{1,PRI_OPEN},nil,nil}, -- Soul-Stabilizing Talisman
@@ -638,7 +641,46 @@ NOP.T_ITEMS = { -- [itemID] = {{count_to_use,priority},{"sub-Zone",...},{[mapID]
   [184901] = {{1,PRI_OPEN},nil,nil}, -- Broker Traversal Enhancer, Thorgast
 -- Court of Embers
   [181536] = {{1,PRI_OPEN},nil,nil}, -- Guest List Page
-  [176131] = {{1,PRI_OPEN},nil,nil}, -- Contract: Glimpse of the Wilds
+---- RSVP
+  [176058] = {{1,PRI_REST},nil,nil}, -- RSVP Baroness Vashj-Begin New Ember Court Items RSVPS
+  [176090] = {{1,PRI_REST},nil,nil}, -- RSVP Lady Moonberry
+  [176091] = {{1,PRI_REST},nil,nil}, -- RSVP The Countess
+  [176092] = {{1,PRI_REST},nil,nil}, -- RSVP Mikanikos
+  [176093] = {{1,PRI_REST},nil,nil}, -- RSVP Alexandros Mograine
+  [176097] = {{1,PRI_REST},nil,nil}, -- RSVP Baroness Vashj
+  [176112] = {{1,PRI_REST},nil,nil}, -- RSVP Lady Moonberry
+  [176113] = {{1,PRI_REST},nil,nil}, -- RSVP Mikanikos
+  [176114] = {{1,PRI_REST},nil,nil}, -- RSVP The Countess
+  [176115] = {{1,PRI_REST},nil,nil}, -- RSVP Alexandros Mograine
+  [176116] = {{1,PRI_REST},nil,nil}, -- RSVP Hunt Captain Korayn
+  [176117] = {{1,PRI_REST},nil,nil}, -- RSVP Polemarch Adrestes
+  [176118] = {{1,PRI_REST},nil,nil}, -- RSVP Rendle and Cudgelface
+  [176119] = {{1,PRI_REST},nil,nil}, -- RSVP Choofa
+  [176120] = {{1,PRI_REST},nil,nil}, -- RSVP Cryptkeeper Kassir
+  [176121] = {{1,PRI_REST},nil,nil}, -- RSVP Droman Aliothe
+  [176122] = {{1,PRI_REST},nil,nil}, -- RSVP Grandmaster Vole
+  [176123] = {{1,PRI_REST},nil,nil}, -- RSVP Kleia and Pelagos
+  [176124] = {{1,PRI_REST},nil,nil}, -- RSVP Plague Deviser Marileth
+  [176125] = {{1,PRI_REST},nil,nil}, -- RSVP Sika
+  [178686] = {{1,PRI_REST},nil,nil}, -- RSVP Stonehead
+---- Contracts
+  [176126] = {{1,PRI_REST},nil,nil}, -- Contract Traditional Theme
+  [176128] = {{1,PRI_REST},nil,nil}, -- Contract Mortal Reminders
+  [176130] = {{1,PRI_REST},nil,nil}, -- Contract Atoning Rituals
+  [176131] = {{1,PRI_REST},nil,nil}, -- Contract Glimpse of the Wilds
+  [176132] = {{1,PRI_REST},nil,nil}, -- Contract Lost Chalice Band
+  [176134] = {{1,PRI_REST},nil,nil}, -- Contract Tubbinss Tea Party
+  [176135] = {{1,PRI_REST},nil,nil}, -- Contract Divine Desserts
+  [176136] = {{1,PRI_REST},nil,nil}, -- Contract Mushroom Surprise
+  [176138] = {{1,PRI_REST},nil,nil}, -- Contract Venthyr Volunteers
+  [176139] = {{1,PRI_REST},nil,nil}, -- Contract Stoneborn Reserves
   [177235] = {{1,PRI_OPEN},nil,nil}, -- Tubbins's Lucky Teapot
+
+
+
+---- Buildings
+  [181517] = {{1,PRI_REST},nil,nil}, -- Building Dredger Pool
+  [181518] = {{1,PRI_REST},nil,nil}, -- Building Guardhouse
+  [184663] = {{1,PRI_REST},nil,nil}, -- Building Guardhouse
 
 }
