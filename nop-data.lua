@@ -426,8 +426,6 @@ NOP.T_ITEMS = { -- [itemID] = {{count_to_use,priority},{"sub-Zone",...},{[mapID]
   [183247] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of a Stable Phantasma Lure (Torghast-Drop L6+)
   [183248] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Jailer's Eye (Ve'nari-Ambivalent)
   [183249] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of a Vital Sacrifice (Covenant-Renown 14+)
-
-
   [183250] = {{1,PRI_REP},nil,{[1912] = true,}},
   [183251] = {{1,PRI_REP},nil,{[1912] = true,}},
   [183252] = {{1,PRI_REP},nil,{[1912] = true,}},
@@ -540,7 +538,6 @@ NOP.T_ITEMS = { -- [itemID] = {{count_to_use,priority},{"sub-Zone",...},{[mapID]
   [183359] = {{1,PRI_REP},nil,{[1912] = true,}},
   [183360] = {{1,PRI_REP},nil,{[1912] = true,}},
   [183361] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Spiritwalker's Tidal Totem
-
   [183362] = {{1,PRI_REP},nil,{[1912] = true,}},
   [183363] = {{1,PRI_REP},nil,{[1912] = true,}},
   [183364] = {{1,PRI_REP},nil,{[1912] = true,}},
@@ -640,6 +637,8 @@ NOP.T_ITEMS = { -- [itemID] = {{count_to_use,priority},{"sub-Zone",...},{[mapID]
   [184653] = {{1,PRI_OPEN},nil,nil}, -- Animated Levitating Chain
   [184901] = {{1,PRI_OPEN},nil,nil}, -- Broker Traversal Enhancer, Thorgast
 -- Court of Embers
+  [177235] = {{1,PRI_OPEN},nil,nil}, -- Tubbins's Lucky Teapot
+  [177239] = {{1,PRI_OPEN},nil,nil}, -- Racing Permit
   [181536] = {{1,PRI_OPEN},nil,nil}, -- Guest List Page
 ---- RSVP
   [176058] = {{1,PRI_REST},nil,nil}, -- RSVP Baroness Vashj-Begin New Ember Court Items RSVPS
@@ -674,10 +673,6 @@ NOP.T_ITEMS = { -- [itemID] = {{count_to_use,priority},{"sub-Zone",...},{[mapID]
   [176136] = {{1,PRI_REST},nil,nil}, -- Contract Mushroom Surprise
   [176138] = {{1,PRI_REST},nil,nil}, -- Contract Venthyr Volunteers
   [176139] = {{1,PRI_REST},nil,nil}, -- Contract Stoneborn Reserves
-  [177235] = {{1,PRI_OPEN},nil,nil}, -- Tubbins's Lucky Teapot
-
-
-
 ---- Buildings
   [181517] = {{1,PRI_REST},nil,nil}, -- Building Dredger Pool
   [181518] = {{1,PRI_REST},nil,nil}, -- Building Guardhouse
