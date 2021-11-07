@@ -371,9 +371,10 @@ NOP.T_ITEMS = { -- [itemID] = {{count_to_use,priority},{"sub-Zone",...},{[mapID]
   [153114] = {{1,PRI_REST},nil,nil}, -- Nathrezim Tome of Manipulation
 -- 9.0
 -- Memorys of the Runecarver
-  [183242] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Akaari's Soul Fragment
+
   [183244] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Rattle of the Maw
   [183245] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Rotten
+  [183342] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Akaari's Soul Fragment
   [183346] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of an Ancestral Reminder
   [183348] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Deeply Rooted Elements
   [183352] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Demise of Skybreaker
