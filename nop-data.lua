@@ -382,7 +382,11 @@ NOP.T_ITEMS = { -- [itemID] = {{count_to_use,priority},{"sub-Zone",...},{[mapID]
   [183356] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Primal Lava Actuators
   [183357] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Witch Doctor
   [183361] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Spiritwalker's Tidal Totem
--- The Maw & Torghas upgrades
+
+-- The Maw & Torghast
+  [178040] = {{1,PRI_OPEN},nil,nil}, -- Condensed Stygia
+
+-- upgrades
   [180949] = {{1,PRI_OPEN},nil,nil}, -- Animaflow Stabilizer
   [184588] = {{1,PRI_OPEN},nil,nil}, -- Soul-Stabilizing Talisman
   [184605] = {{1,PRI_OPEN},nil,nil}, -- Sigil of the Unseen
@@ -399,6 +403,5 @@ NOP.T_ITEMS = { -- [itemID] = {{count_to_use,priority},{"sub-Zone",...},{[mapID]
   [181536] = {{1,PRI_OPEN},nil,nil}, -- Guest List Page
   [176131] = {{1,PRI_OPEN},nil,nil}, -- Contract: Glimpse of the Wilds
   [177235] = {{1,PRI_OPEN},nil,nil}, -- Tubbins's Lucky Teapot
-  [178040] = {{1,PRI_OPEN},nil,nil}, -- Guest List Page
 
 }
