@@ -622,20 +622,23 @@ NOP.T_ITEMS = { -- [itemID] = {{count_to_use,priority},{"sub-Zone",...},{[mapID]
   [178040] = {{1,PRI_OPEN},nil,nil}, -- Condensed Stygia
   [168207] = {{1,PRI_REST},nil,nil}, -- Plundered Anima Cell
   [170540] = {{1,PRI_REST},nil,nil}, -- Ravenous Anima Cell
+  [183870] = {{1,PRI_REST},nil,nil}, -- Recipe: Crafter's Mark II
+  [184359] = {{1,PRI_REST},nil,nil}, -- Unbound Reality Fragment
   [184662] = {{1,PRI_REST},nil,nil}, -- Requisitioned Anima Cell
 ----M&T upgrades
-  [180949] = {{1,PRI_OPEN},nil,nil}, -- Animaflow Stabilizer
-  [184588] = {{1,PRI_OPEN},nil,nil}, -- Soul-Stabilizing Talisman
-  [184605] = {{1,PRI_OPEN},nil,nil}, -- Sigil of the Unseen
-  [184613] = {{1,PRI_OPEN},nil,nil}, -- Encased Riftwalker Essence
-  [184615] = {{1,PRI_OPEN},nil,nil}, -- Extradimensional Pockets, Thorgast
-  [184618] = {{1,PRI_OPEN},nil,nil}, -- Rank Insignia: Acquisitionist, Thorgast
-  [184619] = {{1,PRI_OPEN},nil,nil}, -- Loupe of Unusual Charm, Thorgast
-  [184620] = {{1,PRI_OPEN},nil,nil}, -- Vessel of Unfortunate Spirits
-  [184621] = {{1,PRI_OPEN},nil,nil}, -- Ritual Prism of Fortune
-  [184617] = {{1,PRI_OPEN},nil,nil}, -- Bangle of Seniority
-  [184653] = {{1,PRI_OPEN},nil,nil}, -- Animated Levitating Chain
-  [184901] = {{1,PRI_OPEN},nil,nil}, -- Broker Traversal Enhancer, Thorgast
+  [180949] = {{1,PRI_OPEN},nil,nil}, -- Animaflow Stabilizer, The Maw
+  [180952] = {{1,PRI_OPEN},nil,nil}, -- Possibility Matrix, Torghast
+  [184588] = {{1,PRI_OPEN},nil,nil}, -- Soul-Stabilizing Talisman, The Maw
+  [184605] = {{1,PRI_OPEN},nil,nil}, -- Sigil of the Unseen, The Maw
+  [184613] = {{1,PRI_OPEN},nil,nil}, -- Encased Riftwalker Essence, The Maw
+  [184615] = {{1,PRI_OPEN},nil,nil}, -- Extradimensional Pockets, Torghast
+  [184618] = {{1,PRI_OPEN},nil,nil}, -- Rank Insignia: Acquisitionist, Torghast
+  [184619] = {{1,PRI_OPEN},nil,nil}, -- Loupe of Unusual Charm, Torghast
+  [184620] = {{1,PRI_OPEN},nil,nil}, -- Vessel of Unfortunate Spirits, Torghast
+  [184621] = {{1,PRI_OPEN},nil,nil}, -- Ritual Prism of Fortune, Torghast
+  [184617] = {{1,PRI_OPEN},nil,nil}, -- Bangle of Seniority, Torghast
+  [184653] = {{1,PRI_OPEN},nil,nil}, -- Animated Levitating Chain, The Maw
+  [184901] = {{1,PRI_OPEN},nil,nil}, -- Broker Traversal Enhancer, Torghast
 -- Court of Embers
   [177235] = {{1,PRI_OPEN},nil,nil}, -- Tubbins's Lucky Teapot
   [177239] = {{1,PRI_OPEN},nil,nil}, -- Racing Permit
