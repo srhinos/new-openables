@@ -370,24 +370,260 @@ NOP.T_ITEMS = { -- [itemID] = {{count_to_use,priority},{"sub-Zone",...},{[mapID]
   [153113] = {{1,PRI_REP},nil,{[1135] = true, [1170] = true, [1171] = true}}, -- Demon's Soulstone, usable on Argus maps
   [153114] = {{1,PRI_REST},nil,nil}, -- Nathrezim Tome of Manipulation
 -- 9.0
--- Memorys of the Runecarver
+-- Memories of the Runecarver
+  [182617] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Death's Embrace
+  [182625] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of an Everlasting Grip
+  [182626] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Phearomones
+  [182627] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Superstrain
+  [182628] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Bryndaor
+  [182629] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Crimson Runes
+  [182630] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Gorefiend's Domination
+  [182631] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of a Vampiric Aura
+  [182632] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Absolute Zero
+  [182633] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Biting Cold
+  [182634] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of a Frozen Champion's Rage
+  [182635] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Koltira
+  [182636] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Deadliest Coil
+  [182637] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Death's Certainty
+  [182638] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of a Frenzied Monstrosity
+  [182640] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of a Reanimated Shambler
+  [183211] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Hour of Darkness
+  [183212] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of a Darkglare Medallion
+  [183213] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Anguish of the Collective
+  [183214] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Chaos Theory
+  [183215] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of an Erratic Fel Core
+  [183216] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of a Burning Wound
+  [183217] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of my Darker Nature
+  [183218] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of a Fortified Fel Flame
+  [183219] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Soul of Fire
+  [183220] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Razelikh's Defilement
+  [183221] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Dark Flame Spirit
+  [183222] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Elder Druid
+  [183223] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Circle of Life and Death
+  [183224] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of a Deep Focus Draught
+  [183225] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Lycara
+  [183226] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Balance of All Things
+  [183227] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Oneth
+  [183228] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Arcane Pulsars
+  [183229] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of a Timeworn Dreambinder
+  [183230] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Apex Predator
+  [183231] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of a Cat-Eye Curio (Druid-Feral)
+  [183232] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of a Symmetrical Eye (Druid-Feral)
+  [183233] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Frenzyband (Druid-Feral)
+  [183234] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of a Luffa-Infused Embrace (Druid-Guardian)
+  [183235] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Natural Order (Druid-Guardian)
+  [183236] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Ursoc (Druid-Guardian)
+  [183237] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Sleeper (Druid-Guardian)
+  [183238] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Verdant Infusion (Druid-Restoration)
+  [183239] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of an Unending Growth (Druid-Restoration)
+  [183240] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Mother Tree (Druid-Restoration)
+  [183241] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Dark Titan (Druid-Restoration)
+  [183242] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Eonar (The Wild Hunt - Revered)
+  [183243] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Arbiter's Judgment (The Ascended - Revered)
+  [183244] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Rattle of the Maw ( The Undying Army - Revered)
+  [183245] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Memory of Norgannon (Court of Harvesters - Revered)
+  [183246] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Sephuz (Honor-Purchase)
+  [183247] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of a Stable Phantasma Lure (Torghast-Drop L6+)
+  [183248] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Jailer's Eye (Ve'nari-Ambivalent)
+  [183249] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of a Vital Sacrifice (Covenant-Renown 14+)
 
-  [183244] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Rattle of the Maw
-  [183245] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Rotten
-  [183342] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Akaari's Soul Fragment
-  [183346] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of an Ancestral Reminder
+
+  [183250] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183251] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183252] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183253] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183254] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183255] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183256] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183257] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183258] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183259] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183260] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183261] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183262] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183263] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183264] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183265] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183266] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183267] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183268] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183269] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183270] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183271] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183272] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183273] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183274] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183275] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183276] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183277] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183278] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183279] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183280] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183281] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183282] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183283] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183284] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183285] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183286] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183287] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183288] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183289] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183290] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183291] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183292] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183293] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183294] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183295] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183296] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183297] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183298] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183299] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183300] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183301] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183302] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183303] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183304] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183305] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183306] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183307] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183308] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183309] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183310] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183311] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183312] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183313] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183314] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183315] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183316] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183317] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183318] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183319] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183320] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183321] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183322] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183323] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183324] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183325] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183326] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183327] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183328] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183329] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183330] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183331] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183332] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183333] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183334] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183335] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183336] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183337] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183338] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183339] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183340] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183341] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183342] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Akaari's Soul Fragment (Rogue-Sublety|Torghast, Skoldus Hall, L3+)
+  [183343] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Deathly Shadows (Rogue|Torghast, Fracture Chambers, L3+)
+  [183344] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Finality (Rogue-Sublety|Castle Nathria, Sire Denathrius)
+  [183345] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Rotten (Rogue-Sublety|Plaguefall, Domina Venomblade)
+  [183346] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of an Ancestral Reminder (Shaman|Castle Nathria, Stone Legion Generals)
+  [183347] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Devastating Chains (Shaman|Honor-Purchase)
   [183348] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Deeply Rooted Elements
+  [183349] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183350] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183351] = {{1,PRI_REP},nil,{[1912] = true,}},
   [183352] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Demise of Skybreaker
   [183353] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Windspeaker's Lava Resurgence
+  [183354] = {{1,PRI_REP},nil,{[1912] = true,}},
   [183355] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Frost Witch
   [183356] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Primal Lava Actuators
   [183357] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Witch Doctor
+  [183358] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183359] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183360] = {{1,PRI_REP},nil,{[1912] = true,}},
   [183361] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Spiritwalker's Tidal Totem
 
+  [183362] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183363] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183364] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183365] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183366] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183367] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183368] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183369] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183370] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183371] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183372] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183373] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183374] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183375] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183376] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183377] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183378] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183379] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183380] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183381] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183382] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183383] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183384] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183385] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183386] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183387] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183388] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183389] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183390] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183391] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183392] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [183393] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [186565] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Rampant Transference
+  [186566] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of the Final Sentence
+  [186567] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of Insatiable Hunger
+  [186568] = {{1,PRI_REP},nil,{[1912] = true,}}, -- Memory of an Abomination's Frenzy
+  [186570] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [186572] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [186576] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [186577] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [186591] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [186609] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [186621] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [186635] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [186673] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [186676] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [186687] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [186689] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [186710] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [186712] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [186775] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187105] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187106] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187107] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187109] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187111] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187118] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187127] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187132] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187160] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187161] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187162] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187163] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187217] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187223] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187224] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187225] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187226] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187227] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187228] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187229] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187230] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187231] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187232] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187237] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187258] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187259] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187277] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187280] = {{1,PRI_REP},nil,{[1912] = true,}},
+  [187511] = {{1,PRI_REP},nil,{[1912] = true,}},
 -- The Maw & Torghast
   [178040] = {{1,PRI_OPEN},nil,nil}, -- Condensed Stygia
-
--- upgrades
+----M&T upgrades
   [180949] = {{1,PRI_OPEN},nil,nil}, -- Animaflow Stabilizer
   [184588] = {{1,PRI_OPEN},nil,nil}, -- Soul-Stabilizing Talisman
   [184605] = {{1,PRI_OPEN},nil,nil}, -- Sigil of the Unseen
